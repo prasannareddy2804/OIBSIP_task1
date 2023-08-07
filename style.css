@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer; 
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.container1{
+    display:flexbox;
+    background-image: url("image1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:44rem;
+    opacity: 0.95;
+    position: relative;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+    margin-top:5rem;
+    width:40rem;
+    height: 2.5rem; 
+    border-radius: 5px;
+    float: left;
+}
+.navBar{
+    padding: 10px 0;
+    display: flexbox;   
+}
+h2{
+    color: red; 
+  
+}
+.navBar ul{
+    display:flex;
+    list-style-type: none;
+    gap: 30px;
+   
+    
+}
+.navBar ul li button{
+  
+    background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5rem;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+
+#getStartedButton{
+    background-color:red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  margin: right;
+  font-size: 18px;
+  font-weight: bolder;
+}
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 10px;
+    background:grey;
+  
+}
+.container2{
+    height:36rem;
+    
+}
+.container2 img{
+    padding-top: 3%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+    float: right;
+    height:18%;
+    width: 45%;
+ 
+}
+.container2 .text2{
+      padding-top: 10%;
+    
+}
+.container3{
+    height:36rem;
+    
+}
+.container3 img{
+    height: 30rem;
+    float: left;
+   
+}
+.container3 .text3{
+    padding-top: 10%;
+  
+}
+.container4{
+    height:36rem;
+}
+.container4 img{
+    padding-top: 3%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+    float: right;
+    height:10%;
+    width: 40%;
+}
+.container4 .text4{
+    padding-top: 10%;
+  
+}
+.container5{
+    height:36rem;
+}
+.container5 img{
+    padding-top: 3%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+    float: left;
+    height:10%;
+    width: 40%;
+}
+.container5 .text5{
+    padding-top: 10%;
+  
+}
+.container6{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;    
+}
+.title{
+    background: #303030;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.icon{
+    width: 20px;
+    position: relative;
+}
+.icon::before, .icon::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    top: -1.5px;
+
+}
+.icon::after{
+    transform: rotate(90deg);
+    transition: 0.5s linear;
+}
+.text{
+    background-color: #303030;
+    color: #fff;
+    line-height: 35px;
+    margin: 3px 0;
+    opacity: 0;
+    height: 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+ .tem:target .text{
+    opacity: 1;
+    height: auto;
+    padding: 20px 30px;
+    margin: 0;
+}
+.items{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    list-style-type: none;
+   
+}
+/*row1{
+   float:left;
+}
+#row2{
+    align-items: center;
+    list-style-type: none;
+    flex-grow: 3;
+  
+}
+#row3{
+   
+    float: right;
+    list-style-type: none;
+}
+
+}
+*/
+a:link{
+    color:rgb(152, 153, 140)
+}
+.FooterClass{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
